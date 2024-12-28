@@ -37,3 +37,17 @@ volumes:
   elasticsearch-data:
     driver: local
 ```
+
+Start Elasticsearch and Kibana using Docker Compose:
+```
+docker compose up -d
+```
+Your Elasticsearch node will startup now, and after a couple of seconds, you can reach it at http://localhost:9200/. Kibana should be running at http://localhost:5601 now. 
+To shut down Elasticsearch and Kibana run:
+```
+docker compose down
+```
+In case you also would like to remove the docker volume while shutting down run:
+```
+docker compose down -v
+```
