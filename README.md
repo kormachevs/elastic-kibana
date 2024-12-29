@@ -42,7 +42,7 @@ Start Elasticsearch and Kibana using Docker Compose:
 ```
 docker compose up -d
 ```
-Your Elasticsearch node will startup now, and after a couple of seconds, you can reach it at http://localhost:9200/. Kibana should be running at http://localhost:5601 now. 
+Your Elasticsearch node will startup now, and after a couple of seconds, you can reach it at http://IP_ADDRESS:9200/ for example http://localhost:9200. Kibana should be running at http://IP_ADDRESS:5601 now. 
 To shut down Elasticsearch and Kibana run:
 ```
 docker compose down
